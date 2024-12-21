@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 440px) {
+    .mobile {
+      @apply flex-col ;
+    }
+    .inputmobile{
+        @apply w-[200px] ;
+    }
+    .selectBar{
+        @apply w-[205px] ml-[-3px];
+    }
+    .head_where{
+        @apply text-xl ml-[-50px];
+    }
+    .headthemebutton{
+        @apply ml-[50px];
+    }
+    .card-body-mobile{
+        @apply px-[25px];
+    }
+    .card-data{
+        @apply flex-col mt-[-500px];
+    }
+    .card-data2{
+        @apply  mt-[-140px]
+    }
+    .border{
+        @apply flex-col w-full relative top-[75px] gap-y-2;
+    }
+    .border-button{
+        @apply flex-row mb-[5px] ml-[-5px];
+    }
+    .backbutton{
+        @apply ml-[-50px]
+    }
+    .card-div{
+        @apply h-[1200px];
+    }
+  }
